@@ -1,0 +1,68 @@
+@keyframes slide {
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #269ca2;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffd600;
+}
+
+#logo {
+    border-radius: 1.1rem;
+    height: 8vw;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rebeccapurple;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10%;
+    width: 15rem;
+}
+
+.article-container img {
+    width: 100%;
+}
+
+.article-container:hover {
+    
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media  screen and (min-width: 500px) {
+    .article-container {
+        width: 17rem;
+    }
+}

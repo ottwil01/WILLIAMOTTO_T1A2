@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    margin: 5% 30% 0 30%;
+}
+
+.left-container {
+    width: 30%;
+}
+
+.right-container {
+    width: 70%;
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    max-width: 500px;
+}
+
+@media  screen and (min-width: 500px) and (max-width: 899px) {
+
+}
+
+@media screen and (min-width: 900px) {
+
+}

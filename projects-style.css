@@ -1,0 +1,49 @@
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgba(30, 40, 78, 0.476);
+    margin: 1rem;
+    padding: 1rem;
+    width: 15rem;
+}
+
+.projects h2 {
+    padding: 10px 0 10px 0;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .project-image {
+        display: flex;
+
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* width: calc(100% / 4); */
+    }
+
+}
