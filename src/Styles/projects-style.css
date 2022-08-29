@@ -11,7 +11,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background: rgba(30, 40, 78, 0.476);
+    background: #02111b;
     margin: 1rem;
     padding: 1rem;
     width: 15rem;
@@ -19,6 +19,11 @@
 
 .projects h2 {
     padding: 10px 0 10px 0;
+    color: aliceblue;
+}
+
+.projects p {
+    color: aliceblue;
 }
 
 .projects img {

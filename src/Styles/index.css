@@ -58,8 +58,8 @@ a {
 footer {
     flex-shrink: 0;
     text-align: center;
-    background-color: #30292F;
     color: #FCFCFC;
+    padding: 5px;
 }
 
 @media screen and (min-width: 1200px){

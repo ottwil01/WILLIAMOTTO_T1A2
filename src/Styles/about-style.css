@@ -16,7 +16,7 @@ main {
 }
 
 .left-container #resume {
-    border: 2px solid blue;
+    border: 2px solid aliceblue;
     margin-top: 5px;
 }
 
@@ -28,6 +28,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    max-width: 500px;
 }
 
 @media  screen and (min-width: 500px) {
