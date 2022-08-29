@@ -4,6 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100vw;
+    bottom: 0;
 }
 
 .blog-container h1 {
@@ -24,6 +25,7 @@
 .article-container p {
     text-align: right;
     padding: 0.5rem;
+    color: aliceblue;
 }
 
 .article-container img {
@@ -32,10 +34,6 @@
 
 .article-container:hover {
     transform: scale(1.05);
-}
-
-.blog-container {
-    bottom: 0;
 }
 
 @media  screen and (min-width: 500px) {

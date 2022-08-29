@@ -1,0 +1,41 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    background: red;
+    margin: 1rem;
+}
+
+.header-container h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-container p {
+    text-align: right;
+}
+
+.header-container img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .article-container {
+        margin: 1rem 15vw;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .article-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 900px;
+    gap: 1rem;
+    }
+}
