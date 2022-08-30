@@ -4,13 +4,23 @@ main {
     justify-content: center;
 }
 
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
 .info-container h1 {
     width: 100%;
-    background: rgb(68, 186, 88);
 }
 
 .info-container p {
     background: white;
+}
+
+.info-container img {
+    width: 100%;
 }
 
 #social-container {
@@ -32,6 +42,16 @@ main {
     transform: scale(1.1);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 643px) {
+    .info-container {
+        padding: 5rem;
+    }
 
+    .info-container img {
+        width: 70%;
+    }
+
+    .info-right {
+        width: 70%;
+    }
 }

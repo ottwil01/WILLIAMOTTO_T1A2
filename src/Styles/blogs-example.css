@@ -30,7 +30,7 @@
     color: aliceblue;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 743px) and (max-width: 1200px) {
     .article-container {
         margin: 1rem 15vw;
     }
