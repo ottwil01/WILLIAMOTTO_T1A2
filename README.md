@@ -1,4 +1,3 @@
-# Portfolio Documentation
 # WEBSITE LINK
 ...
 # GITHUB REPOSITORY LINK
@@ -27,6 +26,6 @@ The website is designed to the best of my knowledge to be semantic and responsiv
 ### Blogs Post Page
 ![Blogs Post Page](/docs/Blogs%20Example.png)
 ## Tech Stack
-Website: HTML and CSS
-Wireframes: Figma
-Repository: GitHub
+1. Website: HTML and CSS
+2. Wireframes: Figma
+3. Repository: GitHub
