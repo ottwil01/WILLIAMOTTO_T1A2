@@ -28,6 +28,7 @@
 
 .projects img {
     width: 100%;
+    max-width: 200px;
 }
 
 .projects:hover {
