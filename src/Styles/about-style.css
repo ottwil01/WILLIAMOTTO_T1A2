@@ -10,6 +10,10 @@ main {
     padding: 1rem 0 0 0;
 }
 
+.left-container img {
+    max-width: 200px;
+}
+
 .left-container h1, #resume {
     display: flex;
     justify-content: center;
