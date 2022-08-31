@@ -9,6 +9,7 @@ main {
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
+    max-width: 450px;
 }
 
 .info-container h1 {
@@ -43,15 +44,33 @@ main {
 }
 
 @media screen and (min-width: 643px) {
+    main {
+        flex-direction: column;
+    }
     .info-container {
-        padding: 5rem;
+        width: 100%;
+        max-width: fit-content;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
     }
 
-    .info-container img {
-        width: 70%;
+    .info-left {
+        min-width: 300px;
+        max-width: fit-content;
     }
 
     .info-right {
-        width: 70%;
+        width: 200px;
+    }
+
+    .social-links {
+        display: inline-block;
+    }
+
+    #social-container {
+        display: inline-block;
+        
     }
 }
